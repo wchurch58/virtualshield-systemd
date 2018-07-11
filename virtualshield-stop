@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ -f /tmp/VirtualShield/virtualshield.deb ]; then
+	rm /tmp/VirtualShield/virtualshield.deb
+fi
+
+if [ -f /tmp/VirtualShieldSvc.lock ]; then
+	rm /tmp/VirtualShiel*
+fi

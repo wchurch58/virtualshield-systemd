@@ -1,0 +1,10 @@
+[Unit]
+Description=VirtualShield VPN Service
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/virtualshield-start
+ExecStop=/usr/bin/virtualshield-stop
+
+[Install]
+WantedBy=multi-user.target

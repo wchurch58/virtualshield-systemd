@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir -p /tmp/VirtualShield
+ln -sf /usr/share/virtualshield/virtualshield.deb /tmp/VirtualShield/virtualshield.deb
+mono-service -l:/tmp/VirtualShieldSvc.lock /usr/share/virtualshield/VirtualShieldSvc.exe
